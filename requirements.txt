@@ -1,0 +1,21 @@
+# Core dependencies
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+plotly
+statsmodels
+openpyxl
+pyyaml
+joblib
+tqdm
+ipykernel
+jupyterlab
+notebook
+
+# ML and optimization
+xgboost
+lightgbm
+shap
+streamlit
