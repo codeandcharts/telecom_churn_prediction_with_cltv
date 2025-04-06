@@ -5,36 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
-cat > .gitignore << EOF
-# Ignore raw data files
+# .gitignore
 data/raw/Telecom_Data.csv
-data/raw/*.csv
-# Create .gitignore file
-(echo # Ignore large data files
-echo data/raw/Telecom_Data.csv
-echo *.csv
-echo venv/
-echo .ipynb_checkpoints/
-echo __pycache__/
-echo *.pyc) > .gitignore
-
-# Virtual environment
-venv/
-.venv/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# Python cache files
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Ignore all CSV files in data/raw directory
-data/raw/**/*.csv
-EOF
 
 # Distribution / packaging
 .Python
